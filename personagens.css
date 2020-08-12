@@ -1,0 +1,202 @@
+#grid{
+    padding-left: 90px; 
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.cara0{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#persona{
+    margin-top: 120px;
+    padding: 5px;
+}
+
+#descricao { 
+	text-align: justify;
+	width: 500px;
+	border-bottom: 6px solid blue;
+    background-color: lightgreen;
+}
+
+.stats{
+    padding-left: 5px;
+	text-align: justify;
+	width: 500px;
+	border-right: 6px solid yellow;
+	background-color: lightgrey;
+}
+
+#img_principal {
+	width: 200px;
+}
+th, td {
+	padding: 10px;
+}
+
+.bg-dark a{
+	color: white;
+}
+
+.people{
+	width: 200px;
+}
+
+body{
+    background: linear-gradient(50deg, #3B3939, #2F8FDA);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+html, body, .capa{
+    height: 100%;
+    overflow: auto;
+}
+
+body{
+    background: url('imagens/capa4.jpg'),
+                url('imagens/ruido.png'),
+                linear-gradient(50deg, #3B3939, #2F8FDA);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.img-logo{
+    height: 50px;
+    width: 120px;
+    display: block;
+    background: url('imagens/logo.png') no-repeat;
+    background: contain;
+    color: transparent;
+}
+
+nav.navbar-transparent{
+    padding: 15px 0px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+    color: blue;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+    color: orange;
+    background: none;
+}
+/*--Imagem capa--*/
+.capa{
+    display: table;
+    width: 100%;
+}
+
+
+/*-- Botoes --*/
+.btn-custom{
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+#btn-azul{
+    color: black;
+    background: #1e90ff
+}
+
+#btn-azul:hover{
+    background-color: blue;
+    color: white;
+}
+
+#btn-laranja{
+    background-color: transparent;
+    color: white;
+    border: 2px solid orange;
+}
+
+#btn-laranja:hover{
+    background-color: orange;
+    color: black;
+}
+
+/*-- explicação --*/
+#explicação{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.rotacionar{
+    transform: rotate(0deg);
+    padding-left: 200px;
+}
+
+/*-- rodape --*/
+footer{
+    background: #000;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+}
+
+#frase{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    transform: uppercase;
+}
+
+#jogos h2, #jogo h3{
+    color: orange;
+}
+
+#explicação p{
+    color: white;
+    font-size: 1.5em;
+}
+
+#jogos p{
+    color: black;
+    font-size: 1.5em;
+}
+
+#explicacao h3{
+    color: orange;
+}
+
+.igris{
+    height: 150px;
+    width: 120px;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.frase,p {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
