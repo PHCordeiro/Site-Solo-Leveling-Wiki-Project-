@@ -41,7 +41,7 @@
 
 			<nav class="navbar navbar-dark bg-dark">
 				<a href="index.html">Página inicial</a>
-				<a href="personagens.html">Personagens</a>
+				<a href="personagens.php">Personagens</a>
 				<a href="eu.html">Sobre mim</a>
 			</nav>
 			
