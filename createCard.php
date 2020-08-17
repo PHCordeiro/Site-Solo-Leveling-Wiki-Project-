@@ -19,9 +19,9 @@
     $class = ($_POST['class']);
     $ocupacao = ($_POST['ocupacao']);
     $skills = ($_POST['skills']);
+    $img_formato = ($_POST['extensao']);
     
-    
-    $insertQuery = "INSERT INTO `cards`(`nome`, `estreia`, `status`, `genero`, `pais`, `rank`, `afiliacao`, `class`, `ocupacao`, `skills`) VALUES ('$nome','$estreia','$status','$genero','$pais','$rank','$afiliacao','$class','$ocupacao','$skills');";
+    $insertQuery = "INSERT INTO `cards`(`nome`, `estreia`, `status`, `genero`, `pais`, `rank`, `afiliacao`, `class`, `ocupacao`, `skills`,`img_formato`) VALUES ('$nome','$estreia','$status','$genero','$pais','$rank','$afiliacao','$class','$ocupacao','$skills','$img_formato');";
     $insert = mysqli_query($con, $insertQuery) or die("2: falha insert");
 
     if($insert){

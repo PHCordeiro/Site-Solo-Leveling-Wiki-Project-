@@ -34,6 +34,11 @@
 				<input placeholder="Digite a classe" name = 'class'> 
 				<input placeholder="Digite a ocupação " name = 'ocupacao'> 
 				<input placeholder="Digite as skills " name = 'skills'> 
+				<select name="extensao" >
+					  <option value="png">.png</option>
+					  <option value="jpg">.jpg</option>
+					  <option value="jpeg">.jpeg</option>
+				</select>
 
 				<input type="submit"> 
 				

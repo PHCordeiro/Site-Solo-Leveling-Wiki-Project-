@@ -64,19 +64,6 @@
         <div id="grid">
             <?php include "cardGerador.php" ?>
 
-                <div class="stats">
-                    <h3>Nome: </h3>
-                    <img class="people" src="imagens/.png">
-                    <p><strong>Estréia:</strong></p>
-                    <p><strong>Status:</strong></p>
-                    <p><strong>Gênero:</strong></p>
-                    <p><strong>País: </strong></p>
-                    <p><strong>Rank: </strong></p>
-                    <p><strong>Afiliação:</strong></p>
-                    <p><strong>Class:</strong></p>
-                    <p><strong>Ocupação:</strong></p>
-                    <p><strong>Skills:</strong></p>
-                </div>
 
         </div>
         </center>
