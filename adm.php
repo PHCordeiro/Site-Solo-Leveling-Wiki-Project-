@@ -1,6 +1,6 @@
 
 <?php
-    require "conection.php";
+    require "../conection.php";
     
     $password = "";
     $username = "";

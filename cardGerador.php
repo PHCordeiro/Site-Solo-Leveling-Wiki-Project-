@@ -1,5 +1,6 @@
 <?php 
-    require "conection.php";
+    require "../conection.php";
+
 
     $query = "SELECT * FROM `cards` WHERE 1";
     $exec = mysqli_query($con, $query);

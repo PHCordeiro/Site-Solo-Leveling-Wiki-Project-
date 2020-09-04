@@ -7,7 +7,7 @@
         header("Location: ../error.php"); exit;
     } 
 
-    include 'conection.php'; //conecta com o banco de dados
+    include '../conection.php'; //conecta com o banco de dados
 
     $nome = ($_POST['nome']);
     $estreia = ($_POST['estreia']);
