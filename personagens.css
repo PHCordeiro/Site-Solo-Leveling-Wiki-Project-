@@ -1,6 +1,7 @@
 #grid{
     padding-left: 90px; 
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
 }

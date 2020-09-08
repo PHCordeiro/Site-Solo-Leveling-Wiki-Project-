@@ -9,7 +9,7 @@
             <div class='stats'>
                 <h3>Nome: ".$row['nome']."</h3>
                 <img class='people' src='imagens/".$row['nome'].".".$row['img_formato']."'>
-                <p><strong>Estréia:</strong>".$row['estreia']."</p>
+                <p><strong>Estréia: </strong>".$row['estreia']."</p>
                 <p><strong>Status:</strong> ".$row['status']."</p>
                 <p><strong>Gênero:</strong> ".$row['genero']."</p>
                 <p><strong>País: </strong>".$row['pais']."</p>
