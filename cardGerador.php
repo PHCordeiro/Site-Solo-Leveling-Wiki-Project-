@@ -2,7 +2,7 @@
     require "../conection.php";
 
 
-    $query = "SELECT * FROM `cards` WHERE 1";
+    $query = "SELECT * FROM `cards` WHERE 1 ORDER BY nome ASC";
     $exec = mysqli_query($con, $query);
     while($row = mysqli_fetch_assoc($exec)){
         echo "
