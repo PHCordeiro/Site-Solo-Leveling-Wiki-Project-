@@ -201,3 +201,23 @@ footer{
     max-width: 100%;
 }
 
+.container{
+    max-width: 1335px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.row{
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.grid-item {
+    height: 750px;
+    flex-basis: 30%;
+    -ms-flex: auto;
+     position: relative; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }

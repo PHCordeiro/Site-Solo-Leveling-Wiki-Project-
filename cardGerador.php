@@ -6,7 +6,7 @@
     $exec = mysqli_query($con, $query);
     while($row = mysqli_fetch_assoc($exec)){
         echo "
-            <div class='stats'>
+            <div class='stats grid-item'>
                 <h3>Nome: ".$row['nome']."</h3>
                 <img class='people' src='imagens/".$row['nome'].".".$row['img_formato']."'>
                 <p><strong>Estréia: </strong>".$row['estreia']."</p>

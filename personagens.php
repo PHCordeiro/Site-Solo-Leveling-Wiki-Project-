@@ -61,8 +61,10 @@
         <br> <!-- Pular uma quantidade de pixels --> 
         <br> <!-- Pular uma quantidade de pixels --> 
         <center>
-        <div id="grid">
-            <?php include "cardGerador.php" ?>
+        <div id="" class="flex">
+            <div class="flex row">
+                <?php include "cardGerador.php" ?>
+            </div>
 
 
         </div>
