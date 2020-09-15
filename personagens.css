@@ -213,7 +213,7 @@ footer{
     justify-content: space-around;
 }
 .grid-item {
-    height: 750px;
+    height: 900px;
     flex-basis: 30%;
     -ms-flex: auto;
      position: relative; 
